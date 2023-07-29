@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F4EB;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.branding{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #F6F4EB;
+    display: block;
+}
+
+#navbar{
+    font-family: 'Anton', sans-serif;
+    color: #F6F4EB;
+    width: 100%;
+    background-color: #4682A9;
+}
+
+#landing{
+    height: 90%;
+}
+
+.landing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.info h1{
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    color: #4682A9;
+}
+
+.info p{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #91C8E4;
+}
+
+.landing img{
+    height: 400px;
+}
+
+.about{
+    text-align: center;
+    height: 300px;
+}
+
+.about h1{
+    font-family: 'Anton', sans-serif;
+    color: #4682A9;
+}
+
+.about p{
+    font-family: 'Roboto', sans-serif;
+    color: #91C8E4;
+}
+
+.education h2{
+    font-family: 'Anton', sans-serif;
+    color: #4682A9;
+}
+
+.education h3{
+    font-family: 'Roboto', sans-serif;
+    color: #4682A9;
+    font-weight: bold;
+}
+
+.education p{
+    font-family: 'Roboto', sans-serif;
+    color: #91C8E4;
+}
+
+.work h1{
+    font-family: 'Anton', sans-serif;
+    color: #4682A9;
+    font-weight: bold;
+}
+
+.work h2{
+    font-family: 'Anton', sans-serif;
+    color: #4682A9;
+}
+
+.work p{
+    font-family: 'Roboto', sans-serif;
+    color: #91C8E4;
+    width: 300px;
+    font-size: 20px;
+}
+
+.work img{
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #4682A9;
+    transition: all 0.5s ease-in-out;
+}
+
+.work img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+section a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #F6F4EB;
+    background-color: #749BC2;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+section a:hover{
+    background-color: #526f8b;
+    color: #dddbd4;
+}
+
+.contact h1{
+    font-family: 'Anton', sans-serif;
+    color: #4682A9;
+    font-weight: bold;
+}
+
+.contact a{
+    margin-right: 15px;
+}
+
+.contact h2{
+    color: #4682A9;
+    font-family: 'Anton', sans-serif;
+}
+
+.contact p{
+    width: 450px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #91C8E4;
+}
+
+form{
+    border: 5px solid #4682A9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 335px;
+}
+
+textarea{
+    resize: none;
+}
+
+.contact button{
+    background-color: #4682A9;
+    color: #F6F4EB;
+}
